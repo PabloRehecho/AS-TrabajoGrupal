@@ -1,0 +1,12 @@
+{"create" : {"_index": "datos", "_id" : "1" } }
+ {"operacion" : "Insert", "subtipo": "ninguno", "sistema" : "MySQL", "frecuencia" : 160.20}
+{"create" : {"_index": "datos", "_id" : "2" } }
+ {"operacion" : "Select", "subtipo": "Simple", "sistema" : "MySQL", "frecuencia" : 20275.81}
+{"create" : {"_index": "datos", "_id" : "3" } }
+ {"operacion" : "Select", "subtipo": "Complex", "sistema" : "MySQL", "frecuencia" : 510.83}
+{"create" : {"_index": "datos", "_id" : "4" } }
+ {"operacion" : "Update", "subtipo": "ninguno", "sistema" : "MySQL", "frecuencia" : 97.64}
+{"create" : {"_index": "datos", "_id" : "5" } }
+ {"operacion" : "Mixed", "subtipo": "Select/Update", "sistema" : "MySQL", "frecuencia" : 83.50}
+{"create" : {"_index": "datos", "_id" : "6" } }
+ {"operacion" : "Delete", "subtipo": "ninguno", "sistema" : "MySQL", "frecuencia" : 423.88}
