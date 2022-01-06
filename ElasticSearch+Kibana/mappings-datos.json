@@ -1,0 +1,10 @@
+{
+        "mappings" : {
+                "properties" : {
+                        "operacion" : {"type": "keyword" },
+		                    "subtipo" : {"type": "keyword" },
+                        "sistema" : {"type": "keyword" },
+                        "frecuencia" : {"type": "float" }
+                }
+        }
+}
