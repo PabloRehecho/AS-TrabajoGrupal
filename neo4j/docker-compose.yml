@@ -11,7 +11,7 @@ services:
                         - ./conf:/conf
                         - ./data:/data
                         - ./import:/import
-                        - ./los:/logs
+                        - ./logs:/logs
                         - ./plugins:/plugins
                 environment:
                         - NEO4J_dbms_security_procedures_unrestricted=apoc$
