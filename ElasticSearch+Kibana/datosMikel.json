@@ -1,0 +1,12 @@
+{"create" : {"_index": "datos", "_id" : "7" } }
+ {"operacion" : "Insert", "subtipo": "ninguno", "sistema" : "neo4j", "frecuencia" : 308.60}
+{"create" : {"_index": "datos", "_id" : "8" } }
+ {"operacion" : "Select", "subtipo": "Simple", "sistema" : "neo4j", "frecuencia" : 10.90}
+{"create" : {"_index": "datos", "_id" : "9" } }
+ {"operacion" : "Select", "subtipo": "Complex", "sistema" : "neo4j", "frecuencia" : 1.75}
+{"create" : {"_index": "datos", "_id" : "10" } }
+ {"operacion" : "Update", "subtipo": "ninguno", "sistema" : "neo4j", "frecuencia" : 4.85}
+{"create" : {"_index": "datos", "_id" : "11" } }
+ {"operacion" : "Mixed", "subtipo": "Select/Update", "sistema" : "neo4j", "frecuencia" : 2.0}
+{"create" : {"_index": "datos", "_id" : "12" } }
+ {"operacion" : "Delete", "subtipo": "ninguno", "sistema" : "neo4j", "frecuencia" : 10.75}
