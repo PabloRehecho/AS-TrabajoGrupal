@@ -1,0 +1,20 @@
+1. Para importar el archivo csv, dicho archivo se tiene que encontrar en la carpeta import.
+2. Si se quiere hacer uso del programa python para ver los test realizados, se necesita tener python3, pip3, py2neo y httpie. se instalan con los siguientes comandos:
+-sudo apt-get install python3
+-sudo apt-get install python3-pip
+-sudo pip3 install py2neo
+-sudo apt-get install httpie
+
+si se quiere acceder a neo4j por cuenta propia se pueden usar los siguientes comandos despues de haber puesto en marcha el contenedor de neo4j:
+sudo docker ps (este comando lo usaremos para obtener el id del contenedor)
+sudo docker exec -it (id_contenedor_neo4j) bash
+cypher-shell -u neo4j -p password (la primera vez puede que la contraseña sea neo4j, y que al meterte te pida que la cambies)
+
+algunos ejemplos de querys de neo4j sencillas:
+match (n) return (n); (devuelve todos los nodos de la base de datos)
+
+match (n:persona) where n.id=2414 return (n); devuelve el nodo tipo persona con id 2414. Puede ser que un campo sea un string y tu necesites que sea int, puedes convertirlo con toInteger(n.campo)
+
+usando el prefijo profile en la query nos proporciona datos sobre cuanto tiempo ha tardado en hacerla, etc...
+
+profile match (n:persona) where n.id=2414 delete (n); (este sirve para borrar nodos)
