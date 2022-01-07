@@ -1,0 +1,10 @@
+{"create" : {"_index": "datos", "_id" : "13" } }
+ {"operacion" : "Insert", "subtipo": "ninguno", "sistema" : "rethinkDB", "frecuencia" : 12.82}
+{"create" : {"_index": "datos", "_id" : "14" } }
+ {"operacion" : "Select", "subtipo": "Simple", "sistema" : "rethinkDB", "frecuencia" : 22.22}
+{"create" : {"_index": "datos", "_id" : "15" } }
+ {"operacion" : "Select", "subtipo": "Complex", "sistema" : "rethinkDB", "frecuencia" : 22.22}
+{"create" : {"_index": "datos", "_id" : "16" } }
+ {"operacion" : "Update", "subtipo": "ninguno", "sistema" : "rethinkDB", "frecuencia" : 12.82}
+{"create" : {"_index": "datos", "_id" : "18" } }
+ {"operacion" : "Delete", "subtipo": "ninguno", "sistema" : "rethinkDB", "frecuencia" : 17.24}
