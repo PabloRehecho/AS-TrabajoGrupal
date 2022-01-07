@@ -5,6 +5,9 @@
 -sudo pip3 install py2neo
 -sudo apt-get install httpie
 
+para ejecutar el arcivo main.py:
+sudo python3 main.py
+
 si se quiere acceder a neo4j por cuenta propia se pueden usar los siguientes comandos despues de haber puesto en marcha el contenedor de neo4j:
 sudo docker ps (este comando lo usaremos para obtener el id del contenedor)
 sudo docker exec -it (id_contenedor_neo4j) bash
